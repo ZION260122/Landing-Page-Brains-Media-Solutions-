@@ -1,0 +1,128 @@
+.contact{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.contact-container{
+    display: flex;
+    background-color: #043467;
+    justify-content: space-between;
+    height: 25rem;
+    width: 50rem;
+    margin: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    padding-top: 30px;
+}
+
+.leftPart{
+    margin-left: 20px;
+    width: 50%;
+}
+
+.intro{
+    margin-left: 30px; 
+    margin-bottom:60px ;
+}
+
+.intro h1{
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+.intro p{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 60px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.info ul li {
+    padding: 5px;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+.info ul {
+    display: flex;
+    flex-direction: column;
+}
+.social-media{ 
+    position: absolute;
+    bottom: 170px;
+}
+
+.social-media ul{
+    display: flex;
+    font-size: 40px;
+}
+.social-media ul li{
+    padding-right: 10px;
+    list-style-type: none;
+    padding: 0 25px;
+}
+
+.rightPart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    flex-direction: column;
+    margin: 10px 35px 40px 10px;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    border-radius: 10px;
+    height: 22rem;
+}
+
+.enteries{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.enteries input{
+    width: 18rem;
+    height: 1.8rem;
+    font-size: 15px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+ input:active{
+   border-color: skyblue;
+}
+
+.enteries p{
+    align-items: left;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: "gray.700";
+}
+
+.rightPart button{
+    height: 2rem;
+    width: 10rem;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 650;
+    background-color: rgb(58, 58, 243);
+}
+button:hover{
+    cursor: pointer;
+}
+button:active{
+    transform: scale(0.95);
+    background-color:  rgb(32, 32, 243);
+}
