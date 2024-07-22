@@ -19,7 +19,6 @@ const Footer = () => {
           </ul>
         </div>
         <div className='footer-contact'>
-          
       <Contact/>
         </div>
         <div className='footer-cta'>
