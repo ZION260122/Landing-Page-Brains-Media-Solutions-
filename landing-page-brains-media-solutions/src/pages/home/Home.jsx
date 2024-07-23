@@ -3,7 +3,8 @@ import './home.css';
 
 const Home = () => {
     return (
-        <div className="home">
+       <section id='home'>
+         <div className="home">
             <div className="home-img">
                 <img src="home.avif" alt="" />
             </div>
@@ -18,6 +19,7 @@ const Home = () => {
                 </div>
             </div>
         </div>
+       </section>
     );
 };
 

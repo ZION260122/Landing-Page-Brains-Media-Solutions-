@@ -5,7 +5,8 @@ import './mission.css';
 
 const Mission = () => {
   return (
-    <div className="mission">
+    <section id='mission'>
+       <div className="mission">
       <div className="mission-container">
         <h1>Our Mission</h1>
         <p>At Brains Media Solutions, our mission is to deliver innovative and effective digital marketing solutions to help our clients achieve their business goals.</p>
@@ -28,6 +29,7 @@ const Mission = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

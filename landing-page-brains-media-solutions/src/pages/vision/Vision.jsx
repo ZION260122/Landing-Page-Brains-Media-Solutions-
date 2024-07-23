@@ -1,10 +1,10 @@
-import React from 'react';
 import { FaRocket, FaGlobe, FaChartLine } from 'react-icons/fa';
 import './vision.css';
 
 const Vision = () => {
   return (
-    <div className="vision">
+    <section id='vision'>
+      <div className="vision">
       <div className="vision-container">
         <h1>Our Vision</h1>
         <p>At Brains Media Solutions, our vision is to be a leader in digital marketing, driving innovation and growth for businesses worldwide.</p>
@@ -15,7 +15,7 @@ const Vision = () => {
             </div>
             <div className="vision-text">
               <h2>Innovation</h2>
-              <p>We aim to constantly push the boundaries of what's possible in digital marketing, using cutting-edge technology and creative strategies.</p>
+              <p>We aim to constantly push the boundaries of what&apos;s possible in digital marketing, using cutting-edge technology and creative strategies.</p>
             </div>
           </div>
           <div className="vision-item">
@@ -39,6 +39,7 @@ const Vision = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

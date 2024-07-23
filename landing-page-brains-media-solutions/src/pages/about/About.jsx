@@ -1,10 +1,10 @@
-// About.js
-import React from 'react';
+
 import './about.css';
 
 const About = () => {
   return (
-    <div className="about">
+    <section id='about'>
+      <div className="about">
       <div className="about-container">
         <div className="banner">
           <img src="about.avif" alt="About Us" />
@@ -32,6 +32,7 @@ const About = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 
