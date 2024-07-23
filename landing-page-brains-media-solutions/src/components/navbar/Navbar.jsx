@@ -1,4 +1,6 @@
 import ThemeToggle from "../theme/ThemeToggle";
+import { IoReorderThreeOutline } from "react-icons/io5";
+
 import "./navbar.css";
 
 const Navbar = () => {
@@ -34,6 +36,12 @@ const Navbar = () => {
                 <ThemeToggle/>
               </li>
             </ul>
+            <ul>
+              <li>
+                <IoReorderThreeOutline />
+              </li>
+            </ul>
+
           </div>
         </div>
       </div>

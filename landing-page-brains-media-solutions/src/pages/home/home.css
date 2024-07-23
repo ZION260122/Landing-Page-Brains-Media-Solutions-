@@ -6,8 +6,8 @@
     overflow: hidden; /* Hide any overflow content */
     display: flex;
     align-items: center;
-    justify-content: center;
-    background: white; /* Soft gradient background */
+    justify-content: space-evenly;
+    background: antiquewhite; /* Soft gradient background */
     text-align: center;
     padding: 0 20px;
 }
@@ -20,17 +20,15 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: -1; /* Ensure the image is in the background */
 }
 
 /* Main content */
 .home-img img {
     width: 50vw;
-    height: 80vh;
+    height: 60vh;
 }
 .home-content {
     color: #333;
-    max-width: 800px;
 }
 
 /* Headline styling */
@@ -82,7 +80,7 @@
 @media (max-width: 1200px) {
     .home-img img {
         width: 60vw;
-        height: 70vh;
+        height: 50vh;
     }
 
     .home-content h1 {
@@ -103,10 +101,14 @@
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 994px) {
+    .home{
+        height: auto;
+        padding: 20px;
+    }
     .home-img img {
-        width: 70vw;
-        height: 60vh;
+        width: 50vw;
+        height: 47vh;
     }
 
     .home-content h1 {
@@ -131,15 +133,16 @@
     .home {
         height: auto;
         padding: 20px;
+        justify-content: space-between;
     }
 
     .home-img img {
-        width: 80vw;
-        height: auto;
+        width: 60vw;
+        height: 50vh;
     }
 
     .home-content h1 {
-        font-size: 1.75rem;
+        font-size: 2rem;
     }
 
     .home-content h2 {
@@ -156,21 +159,42 @@
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 600px) {
+    .home{
+        height: 15rem;
+        justify-content: space-between;
+        padding: 20px;
+    }
     .home-content h1 {
-        font-size: 1.5rem;
+        font-size: 0.8rem;
+        margin-bottom: 10px;
     }
 
     .home-content h2 {
-        font-size: 0.875rem;
+        font-size: 0.5rem;
+        margin-bottom: 5px;
     }
 
     .home-content .cta-button {
         padding: 8px 12px;
-        font-size: 0.7rem;
+        font-size: 0.5rem;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .features{
+        margin-top: 5px;
     }
 
     .feature-item {
-        font-size: 0.75rem;
+        font-size: 0.5rem;
+        margin-bottom:2px;
+    }
+
+    .home-img{
+        position: relative;
+    }
+    .home-img img{
+        height: 8rem;
+        width: 50vw;
     }
 }

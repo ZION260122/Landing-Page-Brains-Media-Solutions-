@@ -1,59 +1,87 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.navbar-container{
-    margin: 0;
-    padding: 0;
-    width: 100%;
+.navbar-container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
 }
 
-.navbar{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-family: 'Poppins';
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Poppins";
 }
-
 
 /* Navbar Image */
-.navbar-logo img{
-    height: 5rem;
-    width: 8rem;
-    margin: 10px 40px;
+.navbar-logo img {
+  height: 60px;
+  width: 100px;
+  margin: 10px 20px;
 }
 
-.menu-list ul{
-    display: flex;
-    list-style-type: none;
-    margin-right: 4rem;    
+.menu-list {
+  width: 75vw;
 }
 
-.navbar-menu{
-    align-items: center;
+.menu-list ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  margin-right: 2rem;
 }
 
-.menu-list ul li{
-    margin: 0 2rem;
-    font-size: 1rem;
-    font-weight: 500;
+.navbar-menu {
+  align-items: center;
 }
-.menu-list ul li:hover{
-    cursor: pointer;
+
+.menu-list ul li {
+  margin: 0 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.menu-list ul:last-child {
+  display: none;
+}
+.menu-list ul li:hover {
+  cursor: pointer;
 }
 
 .navbar-menu li a {
-    color: black;
-    text-decoration: none;
-    font-size: 1.2rem;
+  color: black;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 952px) {
+  .navbar{
+    display: flex;
+    justify-content: space-between;
   }
-  
+  .menu-list {
+    width: 5rem;
+  }
+  .menu-list ul:first-child {
+    display: none;
+
+  }
+  .menu-list ul:last-child {
+    display: contents;
+    font-size: 30px;
+  }
+  .menu-list ul li:hover {
+    cursor: pointer;
+  }
+}
 
 /* Mobile View */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
@@ -68,7 +96,7 @@
 
     .menu-list {
         display: none; /* Hide menu items by default */
-        width: 100%;
+/* width: 100%;
         flex-direction: column;
         align-items: center;
     }
@@ -86,7 +114,7 @@
     }
 
     .menu-list.active {
-        display: flex; /* Show menu items when active */
+        display: flex; 
     }
 
     .navbar-menu {
@@ -95,4 +123,4 @@
         width: 100%;
         margin-top: 1rem;
     }
-}
+}  */

@@ -30,10 +30,10 @@ const Footer = () => {
         <div className="footer-section">
           <h2>Follow Us</h2>
           <div className="social-icons">
-            <a href="https://facebook.com/brainsmedia" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
-            <a href="https://twitter.com/brainsmedia" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
-            <a href="https://instagram.com/brainsmedia" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-            <a href="https://linkedin.com/company/brainsmedia" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
+            <a href="https://www.facebook.com/brainsmediasolutions" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
+            <a href="https://x.com/brainsmedia2012" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+            <a href="https://www.instagram.com/Brains_Media_Solutions/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+            <a href="https://www.linkedin.com/company/brains-media-solutions-pvt-ltd-/" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
           </div>
         </div>
       </div>
